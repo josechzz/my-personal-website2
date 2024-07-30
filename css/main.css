@@ -1,3 +1,31 @@
-h1{
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=M+PLUS+1p&family=Manrope:wght@200..800&display=swap');
+
+:root{
+    --primary-color: #D8EFD3;
+    --secondary-color: #95D2B3;
+    --tercery-color: #55AD9B ;
+    --cuartery-color: #F1F8E8 ;
+    --withe: #ffffff;
+
+    --primary-font: "Lexend", sans-serif;
+    --secundary-font: "M PLUS 1p", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar-title{
+    color: var(--withe)
 }
