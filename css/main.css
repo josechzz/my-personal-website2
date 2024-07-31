@@ -53,3 +53,8 @@
     font-style: var(--secundary-font);
     text-align: center;
 }
+
+
+section{
+    background-color: #55AD9B;
+}
